@@ -11,9 +11,9 @@ import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
 
-from startup import agent   
+#from startup import agent   
 from startup.agent import StartupAIAgent, StartupAnalysis
-
+agent = StartupAIAgent()
 # Page configuration
 st.set_page_config(
     page_title="Startup AI Agent",
